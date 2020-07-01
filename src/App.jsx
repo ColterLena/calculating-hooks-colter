@@ -1,8 +1,8 @@
-import React from 'react'
-import HelloWorld from './components/HelloWorld'
+import React, { useState } from 'react'
+import { Calculator } from './components/Calculator'
 
 function App() {
-  return <HelloWorld />
+  return <Calculator />
 }
 
 export default App
